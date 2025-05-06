@@ -17,7 +17,7 @@ agent_options:
 controls:
   macos_settings:
     custom_settings:
-      -path: ../lib/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
 team_settings:
