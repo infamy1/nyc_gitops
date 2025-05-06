@@ -24,6 +24,7 @@ controls:
       - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
+    - path: ../lib/update-dns.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
